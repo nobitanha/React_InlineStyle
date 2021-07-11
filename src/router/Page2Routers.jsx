@@ -9,7 +9,7 @@ export const page2Routers = [
   },
   {
     path: "/:id",
-    exact: false,
+    exact: true,
     children: <UrlParameter />
   }
 ];
