@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Footer = () => {
@@ -13,8 +12,4 @@ const SFooter = styled.footer`
   position: fixed;
   bottom: 0;
   width: 100%;
-`;
-
-const SLink = styled(Link)`
-  margin: 0 8px;
 `;
